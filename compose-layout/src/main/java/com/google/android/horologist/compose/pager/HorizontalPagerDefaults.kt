@@ -45,7 +45,7 @@ public object HorizontalPagerDefaults {
         return PagerDefaults.flingBehavior(
             state = pagerState,
             pagerSnapDistance = PagerSnapDistance.atMost(0),
-            snapAnimationSpec = tween(150, 0),
+            snapAnimationSpec = tween(75, 0),
         )
     }
 }
